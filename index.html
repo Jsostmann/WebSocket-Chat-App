@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chat App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Chat App</h1> 
+        <label>Screen Name: </label><input id="currentUser"> 
+        <label>Message: </label><input id="currentMessage"> 
+        <button id="submit">Send Message</button> 
+    </div>   
+    
+    <div id="clients"></div>
+    
+    
+    <div id="feedback"></div>
+    
+    <div id="allUsers"></div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="./client.js"></script>
+</body>
+</html>
