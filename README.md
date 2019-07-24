@@ -1,4 +1,4 @@
-<div style="width: 100%; height: 100%; background-color: grey">
+<div style="width: 100%; height: 100%; padding: 5px; background-color: grey">
 <div style=" display: inline-block; background-color:blue; width: 12.5%; height: 50px; border-radius: 15px; border: black 3px solid;"></div>
 <div style=" display: inline-block; background-color:gold; width: 12.5%; height: 50px; border-radius: 15px; border: black 3px solid;"></div>
 <div style=" display: inline-block; background-color:blue; width: 12.5%; height: 50px; border-radius: 15px; border: black 3px solid;"></div>
